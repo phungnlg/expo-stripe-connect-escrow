@@ -16,8 +16,6 @@ real `stripe` Node SDK shape, so swapping in a live key needs no app changes.
 
 Backend-driven escrow lifecycle across all four surfaces:
 
-https://github.com/phungnlg/expo-stripe-connect-escrow/raw/main/screenshots/demo.mp4
-
 ![Demo](screenshots/demo.gif)
 
 ## What it shows
