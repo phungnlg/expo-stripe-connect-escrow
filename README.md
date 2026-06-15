@@ -68,7 +68,7 @@ is no hold, so no escrow. This POC uses **separate charges and transfers**:
   +-----------------------------------------------------------+
       |              |                |               |
       v              v                v               v
-  paymentIntents  transfers        refunds      accountLinks   <- mockStripe.ts
+  paymentIntents  transfers        refunds      accountLinks   <- mockStripe.mjs
   .create         .create          .create      .create        (real Stripe shape)
   (escrow hold)   (release-net)    (dispute)    (Express onboarding)
 ```
